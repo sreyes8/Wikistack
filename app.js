@@ -20,7 +20,7 @@ app.get("/", function(req, res) {
 });
 
 app.use("/wiki", wikiRoutes);
-app.use("/user", userRoutes);
+app.use("/users", userRoutes);
 
 const init = async () => {
   await db.sync().then(
