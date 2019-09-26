@@ -29,7 +29,7 @@ const User = db.define("user", {
     allowNull: false
   }
 });
-Page.create({ title: "Hello", slug: "Bye", content: "My name is Stefanie" });
+
 
 module.exports = {
   Page,
